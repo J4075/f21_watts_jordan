@@ -1,0 +1,100 @@
+---
+title: "NIBRS Data Analysis"
+description: |
+  This is an analysis done for my Senior Project on the FBI's 2019 NIBRS master data.
+author:
+  - name: Jordan Watts
+date: 2021-11-13
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The National Incident-Based Reporting System (NIBRS) was created to replace the outdated Summary Reporting System (SRS) as the new way to gather crime data in the United States. Since 1930, the FBI’s Uniform Crime Reporting (UCR) Program has collected crime data using the SRS. On January 1, 2021 the FBI retired the SRS and began to use NIBRS exclusively.
+
+This change was announced by FBI director Comey as an initiative to improve the quality and usefulness of the data they collect. One such change is that NIBRS captures data on the details of incidents that are not included in SRS, these include "the relationships between victims and offenders, the types and quantities of drugs involved, and the types of property damaged or stolen." NIBRS also includes many offenses not collected by SRS such  as animal cruelty, extortion, and identity theft. The last big difference is that SRS was a sum of counts where as NIBRS is individual identifiers which allows for better interpretations to be made and more complex questions to be asked.
+
+ree such questions that I have decided to explore are the following,
+1. What groups are the most victimized in the US and why?
+2. What weapons are most dangerous and when are they used?
+3. Who is the greatest threat in my life?
+These questions will explore areas that would have been impossible with the SRS program.  Using the NIBRS data I will perform an analysis to help provide new insights into these questions that are now within our reach of study. I will include the notable findings I make in this post and also the link to allow any interested readers to explore their own questions. Be sure to follow the link at the end of the post to check out the NIBRS dashboard I use.
+
+y introducing the statistics of the data. You may ask, "who is the prototypical arrestee in the US?" This is what I found.
+
+<!-- wp:image {"id":27,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-1.png?w=776" alt="" class="wp-image-27"/></figure>
+<!-- /wp:image -->
+
+The typical arrestee is White, Non-Latino, Male, and 18-30 years old. It should be noted that this is an average, meaning this is not the case in every crime. For example lets filter by robbery and see how our demographic changes.
+
+<!-- wp:image {"id":28,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-2.png?w=777" alt="" class="wp-image-28"/></figure>
+<!-- /wp:image -->
+
+This tells a very different story. Where as before you would think to be most cautious of a young white male, these charts show that there are 33% more black people than white people who are arrested for armed robbery. You may also notice they are far more likely to be male and between the ages of 16-19. I found this demographic the most astonishing because a 17 yr old black male was not my initial thought of being the prototypical robber in the US. Demographics can help illustrate who is committing each crime so we can better take preventative measures. 
+
+The victimized data tells another tale. The group with the most offenses against it are African Americans by a large margin. 
+
+<!-- wp:image {"id":30,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-3.png?w=776" alt="" class="wp-image-30"/></figure>
+<!-- /wp:image -->
+
+ offenses with the highest counts against African Americans are,
+- Aggravated Assault
+- Simple Assault
+- Destruction of Property
+- Intimidation
+I wanted to note that only 2 counts of racially motivated murder of African Americans were accounted for in the year 2019 This suggests that these biased crimes are heinous acts which often end in threatening, vandalism, or assault but almost never murder. Aside from race, the data can also be filtered down to examine how people are targeted for their gender identity, gender, religion, sexual orientation, and disability. This data can tell individual stories however because not as many crimes are motivated by bias there is less data to analyze. For example, look at purse snatching.
+
+<!-- wp:image {"id":32,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-4.png?w=773" alt="" class="wp-image-32"/></figure>
+<!-- /wp:image -->
+
+This data tells how a gay male had his purse stolen because of his sexual orientation as well as someone else because they are Latino. Because these crime counts are so scarce, they tell an individual story but do not allow for greater analysis to be done. 
+
+he next question explored was the weapon involved in a crime. The most common weapon in most cases was Personal Weapons (hands, arms, feet, fists, teeth, etc.) This came as a surprise to me because I thought the weapon of choice for most criminals would be a handgun. It came as a surprise that most crimes committed are done with just their own body parts. 
+
+<!-- wp:image {"id":36,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-6.png?w=693" alt="" class="wp-image-36"/></figure>
+<!-- /wp:image -->
+
+However when we look only at murder another story is told. 
+
+<!-- wp:image {"id":34,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-5.png?w=692" alt="" class="wp-image-34"/></figure>
+<!-- /wp:image -->
+
+It is clear that handguns and firearms are the weapon of choice when someone is killed. Firearm means that the weapon did not fit under any of the other specific classifications. Meaning its not a handgun, shotgun, rifle, or automatic weapon, rather its probably something homemade, semi-automatic, sawed-off, etc. I think these numbers are interesting, you could say the average American is far more likely to be a victim by someone's fists than by a gun, however if in the case that a firearm is used it is far more lethal than anything else.
+
+The last dashboard in my opinion is the most interesting. Here we are able to analyze the relationships of the victims to their offenders. When looking at all crimes together I was happy to learn that the relationship with the greatest count was where the victim was a stranger. This means exercising caution around strangers will be the best practice in safeguarding yourself from being a victim.
+
+<!-- wp:image {"id":40,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-8.png?w=776" alt="" class="wp-image-40"/></figure>
+<!-- /wp:image -->
+
+Sometimes this can be difficult like in the case of theft of a motor vehicle or from a motor vehicle the victim is almost always a stranger.
+
+<!-- wp:image {"id":38,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-7.png?w=774" alt="" class="wp-image-38"/></figure>
+<!-- /wp:image -->
+
+There are other crimes to in which the relationship is that of an acquaintance so you should be more weary of your coworkers, teachers, etc. One such example is the case of Pornography and Rape.
+
+<!-- wp:image {"id":42,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-9.png?w=776" alt="" class="wp-image-42"/></figure>
+<!-- /wp:image -->
+
+Here you must realize that women should be most careful of those they associate with rather than strangers to protect themselves from falling victim to one of these awful crimes.
+
+The dashboard is currently only available to those in my organization (BYUI) due to license restrictions. I am in the process of figuring out how to allow for all users to be able to explore their own questions. Check this post later for updates.
+
+https://app.powerbi.com/groups/me/reports/b0f126f8-96a3-4e95-a2d6-ef18d73d9c07/ReportSection87464548942be85d7b1b
+
+
+

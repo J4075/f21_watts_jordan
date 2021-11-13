@@ -1,0 +1,18 @@
+---
+title: "Jordan Watts Blog"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+listing: posts
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+#distill::create_post("NIBRS Data Analysis")
+#distill::distill_website()
+#distill::publish_website()
+```
+
