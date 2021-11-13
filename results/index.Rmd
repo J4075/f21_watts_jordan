@@ -1,7 +1,7 @@
 ---
 title: "Jordan Watts Blog"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Welcome to the blog! I hope you find an analysis that interests you.
 site: distill::distill_website
 listing: posts
 ---
