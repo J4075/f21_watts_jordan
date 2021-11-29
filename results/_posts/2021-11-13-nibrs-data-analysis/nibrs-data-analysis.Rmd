@@ -25,7 +25,7 @@ ree such questions that I have decided to explore are the following,
 3. Who is the greatest threat in my life?
 These questions will explore areas that would have been impossible with the SRS program.  Using the NIBRS data I will perform an analysis to help provide new insights into these questions that are now within our reach of study. I will include the notable findings I make in this post and also the link to allow any interested readers to explore their own questions. Be sure to follow the link at the end of the post to check out the NIBRS dashboard I use.
 
-y introducing the statistics of the data. You may ask, "who is the prototypical arrestee in the US?" This is what I found.
+You may ask, "who is the prototypical felon in the US?" This is what I found.
 
 <!-- wp:image {"id":27,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-1.png?w=776" alt="" class="wp-image-27"/></figure>
@@ -36,10 +36,11 @@ The typical arrestee is White, Non-Latino, Male, and 18-30 years old. It should 
 <!-- wp:image {"id":28,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-2.png?w=777" alt="" class="wp-image-28"/></figure>
 <!-- /wp:image -->
+These charts show that there are 33% more black Americans than white Americans who are arrested for armed robbery. You may also notice that armed robbers are far more likely to be male and between the ages of 16-19. I found this demographic the most astonishing because a 17 yr old black male was not my initial thought of being the prototypical robber in the US. Demographics can help illustrate which demographics are more at risk of turning to specific forms of crime. 
 
-This tells a very different story. Where as before you would think to be most cautious of a young white male, these charts show that there are 33% more black people than white people who are arrested for armed robbery. You may also notice they are far more likely to be male and between the ages of 16-19. I found this demographic the most astonishing because a 17 yr old black male was not my initial thought of being the prototypical robber in the US. Demographics can help illustrate who is committing each crime so we can better take preventative measures. 
+1. What groups are the most victimized in the US and why?
 
-The victimized data tells another tale. The group with the most offenses against it are African Americans by a large margin. 
+The victimized data tells us which groups of demographics are being targeted based on their background. The group with the most offenses against them are African Americans by a large margin. 
 
 <!-- wp:image {"id":30,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-3.png?w=776" alt="" class="wp-image-30"/></figure>
@@ -56,9 +57,11 @@ I wanted to note that only 2 counts of racially motivated murder of African Amer
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-4.png?w=773" alt="" class="wp-image-32"/></figure>
 <!-- /wp:image -->
 
-This data tells how a gay male had his purse stolen because of his sexual orientation as well as someone else because they are Latino. Because these crime counts are so scarce, they tell an individual story but do not allow for greater analysis to be done. 
+This data tells how a gay male had his purse stolen because of his sexual orientation as well as someone else because they are Latino. In the case of bias data it should be acknowledged that there is certainly bias. The reporting officer, victim, or witness will determine if the crime was motivated by bias which in turn can lead to skewed results. Reference to this data should be properly acknowledged to be speculative.
 
-he next question explored was the weapon involved in a crime. The most common weapon in most cases was Personal Weapons (hands, arms, feet, fists, teeth, etc.) This came as a surprise to me because I thought the weapon of choice for most criminals would be a handgun. It came as a surprise that most crimes committed are done with just their own body parts. 
+2. What weapons are most dangerous and when are they used?
+
+The next question explored was the weapon involved in a crime. The most common weapon in most cases was Personal Weapons (hands, arms, feet, fists, teeth, etc.) This came as a surprise to me because I thought the weapon of choice for most criminals would be a handgun. It came as a surprise that most crimes committed are done with just their own body parts. 
 
 <!-- wp:image {"id":36,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-6.png?w=693" alt="" class="wp-image-36"/></figure>
@@ -70,7 +73,9 @@ However when we look only at murder another story is told.
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-5.png?w=692" alt="" class="wp-image-34"/></figure>
 <!-- /wp:image -->
 
-It is clear that handguns and firearms are the weapon of choice when someone is killed. Firearm means that the weapon did not fit under any of the other specific classifications. Meaning its not a handgun, shotgun, rifle, or automatic weapon, rather its probably something homemade, semi-automatic, sawed-off, etc. I think these numbers are interesting, you could say the average American is far more likely to be a victim by someone's fists than by a gun, however if in the case that a firearm is used it is far more lethal than anything else.
+It is clear that handguns and firearms are the weapon of choice when someone is killed. Firearm means that the weapon did not fit under any of the other specific classifications. Meaning its not a handgun, shotgun, rifle, or automatic weapon, rather its probably something homemade, semi-automatic, sawed-off, etc.You may assume the average American is far more likely to be a victim by another person's hands than by a gun, however, unsurprisingly, if a firearm is used it is more lethal than anything else. The weapon with the most offenses for unlawful killing is a handgun.
+
+3. Who is the greatest threat in my life?
 
 The last dashboard in my opinion is the most interesting. Here we are able to analyze the relationships of the victims to their offenders. When looking at all crimes together I was happy to learn that the relationship with the greatest count was where the victim was a stranger. This means exercising caution around strangers will be the best practice in safeguarding yourself from being a victim.
 
@@ -78,21 +83,19 @@ The last dashboard in my opinion is the most interesting. Here we are able to an
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-8.png?w=776" alt="" class="wp-image-40"/></figure>
 <!-- /wp:image -->
 
-Sometimes this can be difficult like in the case of theft of a motor vehicle or from a motor vehicle the victim is almost always a stranger.
+In the cases of crimes such as theft of a motor vehicle or from a motor vehicle the offender is almost always a stranger.
 
 <!-- wp:image {"id":38,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-7.png?w=774" alt="" class="wp-image-38"/></figure>
 <!-- /wp:image -->
 
-There are other crimes to in which the relationship is that of an acquaintance so you should be more weary of your coworkers, teachers, etc. One such example is the case of Pornography and Rape.
+There are other crimes in which the relationship is that of an acquaintance so you should be more weary of your coworkers, teachers, etc. One such example is the case of Pornography and Rape.
 
 <!-- wp:image {"id":42,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="https://jayjayswizzle.files.wordpress.com/2021/10/image-9.png?w=776" alt="" class="wp-image-42"/></figure>
 <!-- /wp:image -->
 
-Here you must realize that women should be most careful of those they associate with rather than strangers to protect themselves from falling victim to one of these awful crimes.
-
-The dashboard is currently only available to those in my organization (BYUI) due to license restrictions. I am in the process of figuring out how to allow for all users to be able to explore their own questions. Check this post later for updates.
+The dashboard is currently only available to those within my organization (BYUI) due to license restrictions. I am in the process of making availability possible for all users to be able to explore their own questions. Check this post later for future updates.
 
 https://app.powerbi.com/groups/me/reports/b0f126f8-96a3-4e95-a2d6-ef18d73d9c07/ReportSection87464548942be85d7b1b
 
